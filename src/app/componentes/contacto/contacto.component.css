@@ -1,0 +1,41 @@
+.contacto {
+  background-color: #656060;
+  padding: 1.5rem;
+  align-items: flex-start;
+  }
+.contacto .contenedor {
+  background-color: #777171;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 5px ;
+  min-height: 20px;
+}
+.contacto .encabezado{
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+}
+.contacto button{
+  color: #c0c0c0;
+  font-weight: bold;
+  font-size: 20px;
+  background-color:#555454 ;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  border-color: #767474;
+}
+.contacto button i{
+  color:#c0c0c0;
+  transition: all 0.2s ease-in-out;
+}
+.contacto button:hover{
+  background-color: #262424;
+  color:rgb(237, 237, 237);
+  transform: scale(90%);
+}
+.contacto button:hover i{
+  background-color: #262424;
+  color:rgb(237, 237, 237);
+}

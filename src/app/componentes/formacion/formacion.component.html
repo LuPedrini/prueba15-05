@@ -1,0 +1,19 @@
+<div  id="formacion" class="formacion">
+  <div class="contenedor container-fluid">
+    <h2 class="seccion-titulo">Formación académica</h2>
+      <ul class="list-group-formacion list-group-flush">
+          <li class="list-group-item" *ngFor="let education of educationList">
+            <div class="row row-formacion g-0">
+            <div class="col-2 d-none d-sm-block">
+              <img class="logos-instituciones img-fluid rounded-circle" src="{{education.logo}}" alt="Logo institución">
+            </div>
+            <div class="card-body col-10">
+            <h5 class="titulos-listas">{{education?.school}}</h5>
+                <p class="texto-lista">{{education.title}}</p>
+                <p class="texto-lista-gris">{{education.duration}}</p>
+            </div>
+            </div>
+          </li>
+      </ul>
+  </div>    
+</div>

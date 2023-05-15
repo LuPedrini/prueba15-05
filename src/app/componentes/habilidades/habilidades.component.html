@@ -1,0 +1,55 @@
+<div  id="habilidades" class="habilidades">
+  <div class="contenedor container-fluid">
+     <h2 class="seccion-titulo">Habilidades</h2>
+     <ul class="list-group list-group-flush">
+     <li class="list-group-item cada-habilidad" *ngFor="let skills of skillsList; index as i">
+      <h3 class="nombre-habilidad">Habilidad {{skills.name}} ({{skills.progress}}%)</h3>     
+     <app-barrasskills [value]="skills.progress"></app-barrasskills>
+     
+      </li>
+      </ul>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!--
+  <div class="contenedor container-fluid">
+     <h2 class="seccion-titulo">Habilidades</h2>
+    <div class="cada-habilidad">
+     <h3 class="nombre-habilidad">Nombre habilidad 1</h3>
+     <div class="progress" style="height: 15px;">
+      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+     </div>
+    </div>
+    <div class="cada-habilidad">
+      <h3 class="nombre-habilidad">Nombre habilidad 2</h3>
+      <div class="progress" style="height: 15px;">
+       <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+     </div>
+     <div class="cada-habilidad">
+      <h3 class="nombre-habilidad">Nombre habilidad 3</h3>
+      <div class="progress" style="height: 15px;">
+       <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+     </div>
+     <div class="cada-habilidad">
+      <h3 class="nombre-habilidad">Nombre habilidad 4</h3>
+      <div class="progress" style="height: 15px;">
+       <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+     </div>
+     <div class="cada-habilidad">
+      <h3 class="nombre-habilidad">Nombre habilidad 5</h3>
+      <div class="progress" style="height: 15px;">
+       <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+     </div>
+  </div>
+-->

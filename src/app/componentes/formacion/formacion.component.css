@@ -1,0 +1,26 @@
+.formacion {
+  background-color: #656060;
+  padding: 1.5rem;
+  align-items: flex-start;
+  }
+.formacion .contenedor {
+  background-color: #777171;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.row-formacion{
+  background-color: #777171;
+ }
+.logos-instituciones {
+  width: 80%;
+  max-width: 70px;
+  border-radius: 50%;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+     }
+

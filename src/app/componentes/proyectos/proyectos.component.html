@@ -1,0 +1,13 @@
+<div  id="proyectos" class="proyectos">
+  <div class="contenedor container-fluid">
+    <h2 class="seccion-titulo">Proyectos (cuando tenga)</h2>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" *ngFor="let projects of projectsList">
+        <h5 class="titulos-listas">{{projects.name}}</h5>
+            <p class="texto-lista">{{projects.description}}</p>
+            <p class="texto-lista-gris">{{projects.date}}</p>
+            <p class="texto-lista-gris">{{projects.link}}</p>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+.navbar {
+  padding: 0.7rem;
+  background-color: #262424;
+  }
+  .navbar-collapse {
+    justify-content: right;
+    align-items: center ;
+  }
+  .button.navbar-toggler {
+    align-self: right;
+  }
+  .iconos-redes-sociales a{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(195, 195, 195);
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+   .iconos-redes-sociales i{
+    color:rgb(194, 194, 194);
+    font-size: 1rem;
+   }
+   .iconos-redes-sociales a:hover{
+    background-color: rgb(113, 111, 110);
+    transform: scale(120%);
+   }
+   .iconos-redes-sociales i:hover{
+    color:rgb(255, 255, 255);
+   }
+   .button-log{
+    color:white;
+   }
+   .btn.btn-primary{
+    background-color: rgb(180, 100, 100);
+    color:rgb(26, 26, 26);
+    border-color: rgb(234, 233, 233);
+   }

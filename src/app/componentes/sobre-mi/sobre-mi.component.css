@@ -1,0 +1,19 @@
+.row-sobremi{
+  margin: 10px;
+  position: relative;
+  padding-top: 5%;
+}
+.row-sobremi .container-hero{
+  align-items: center;
+  text-align: center;
+  top: -50vw;
+  left: 7%;
+  
+}
+.row-sobremi .container-sobremi{
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  left: 7%;
+  margin-top: 25%;
+}

@@ -1,0 +1,64 @@
+{
+  "portfolio": {
+  "name": "Lu Pe",
+  "profile_img": "./assets/images/unsasamchiquito.png"
+  },
+  "experiencie":[{
+    "position": "Nombre del trabajo 1",
+    "company" : "Nombre de la empresa del trabajo 1",
+    "duration" : "Duración en años trabajo 1",
+    "ubication" : "Ubicación geográfica del trabajo 1"
+  },
+  {
+    "position": "Nombre del trabajo 2",
+    "company" : "Nombre de la empresa del trabajo 2",
+    "duration" : "Duración en años trabajo 2",
+    "ubication" : "Ubicación geográfica del trabajo 2"
+  }],
+  "education":[{
+    "school": "Nombre de la institución 1",
+    "title": "Título de la formación 1",
+    "duration": "Duración en años 1",
+    "logo": "Logo institución 1"
+  },
+  {
+    "school": "Nombre de la institución 2",
+    "title": "Título de la formación 2",
+    "duration": "Duración en años 2",
+    "logo": "Logo institución 2"
+  },
+  {
+  "school": "Nombre de la institución 3",
+  "title": "Título de la formación 3",
+  "duration": "Duración en años 3",
+  "logo": "Logo institución 3"
+  }],
+  "projects":[{
+    "name": "Nombre proyecto 1",
+    "description": "Descripción proyecto 1",
+    "date": "Años proyecto 1",
+    "link": "Link proyecto 1"
+  },
+  {
+    "name": "Nombre proyecto 2",
+    "description": "Descripción proyecto 2",
+    "date": "Años proyecto 2",
+    "link": "Link proyecto 2"
+  },
+  {
+    "name": "Nombre proyecto 3",
+    "description": "Descripción proyecto 3",
+    "date": "Años proyecto 3",
+    "link": "Link proyecto 3"
+  }],
+  "skills":[
+    {
+      "name": "nombre habilidad 1",
+      "progress": "50"
+    },
+    {
+      "name": "nombre habilidad 2",
+      "progress": "10"
+    }
+  ]
+}

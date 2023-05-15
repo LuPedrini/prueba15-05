@@ -1,0 +1,13 @@
+<div  id="experiencia" class="experiencia">
+  <div class="contenedor container-fluid">
+    <h2 class="seccion-titulo">Acá va la experiencia</h2>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" *ngFor="let experiencie of experiencieList">
+        <h5 class="titulos-listas">{{experiencie.position}}</h5>
+            <p class="texto-lista">{{experiencie.company}}</p>
+            <p class="texto-lista-gris">{{experiencie.duration}}</p>
+            <p class="texto-lista-gris">{{experiencie.ubication}}</p>
+      </li>
+    </ul>
+  </div>
+</div>
